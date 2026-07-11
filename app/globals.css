@@ -900,3 +900,12 @@ input:checked + .slider:before {
 .empty-state-icon {
   color: var(--text-muted);
 }
+
+.empty-state-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 24px rgba(99, 102, 241, 0.28);
+  margin-bottom: 14px;
+}
