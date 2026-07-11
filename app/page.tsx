@@ -339,8 +339,8 @@ export default function Dashboard() {
       {/* Header */}
       <header className="dashboard-header">
         <div className="header-logo">
-          <FileText className="logo-icon" size={28} />
-          <span>Paper<span style={{ fontWeight: 400 }}>Trail</span></span>
+          <img src="/logo.png" alt="Paper Trail logo" className="header-logo-image" />
+          <span className="header-logo-text">Paper<span style={{ fontWeight: 400 }}>Trail</span></span>
         </div>
         
         {/* Navigation Tabs */}
@@ -519,6 +519,7 @@ export default function Dashboard() {
 
               {!loading && !auditResult && (
                 <div className="empty-state">
+                  <img src="/logo.png" alt="Paper Trail logo" className="empty-state-logo" />
                   <ShieldCheck size={48} className="empty-state-icon" style={{ strokeWidth: 1.5 }} />
                   <p style={{ fontWeight: 600 }}>Ready for Invoice Audit</p>
                   <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem', maxWidth: '300px' }}>Upload a file or choose a quick testing sample on the left to review the compliance score.</p>
