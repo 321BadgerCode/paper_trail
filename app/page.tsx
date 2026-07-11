@@ -339,8 +339,8 @@ export default function Dashboard() {
       {/* Header */}
       <header className="dashboard-header">
         <div className="header-logo">
-          <FileText className="logo-icon" size={28} />
-          <span>Paper<span style={{ fontWeight: 400 }}>Trail</span></span>
+          <img src="/logo.png" alt="Paper Trail logo" className="header-logo-image" />
+          <span className="header-logo-text">Paper<span style={{ fontWeight: 400 }}>Trail</span></span>
         </div>
         
         {/* Navigation Tabs */}
