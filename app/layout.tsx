@@ -3,7 +3,23 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Paper Trail | Automated Expense & Invoice Auditor",
-  description: "Automated small business invoice & receipt auditor using Gemini 1.5 Flash.",
+  description:
+    "AI-powered expense intelligence for invoice auditing and compliance.",
+  applicationName: "Paper Trail",
+  keywords: [
+    "invoice",
+    "audit",
+    "expense",
+    "compliance",
+    "finance",
+    "procurement",
+  ],
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "Paper Trail",
+    statusBarStyle: "default",
+  },
 };
 
 export default function RootLayout({
